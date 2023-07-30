@@ -1,0 +1,110 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.home-container {
+    background-image: url(./laptop.png.png);
+    background-size: cover;
+    height: 100vh;
+    font-size: 40px;
+    font-family: Pacifico;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.intro {
+    top: 100px;
+    position: relative;
+}
+
+.ayush {
+    font-size: 80px;
+    text-decoration: underline;
+    color: rgb(98, 122, 145);
+    display: inline;
+}
+
+.web {
+    color: rgb(98, 122, 145);
+    font-size: 40px;
+}
+
+.middle-container {
+    height: 100vh;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.profile {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.hello {
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.about {
+    /* display: inline-block; */
+    /* text-align: left; */
+}
+
+.about>.home {
+    height: 60px;
+    /* padding-left: 35px; */
+    margin-top: 80px;
+    filter: invert(100%);
+}
+
+.about>h6 {
+    font-size: 20px;
+    font-style: italic;
+}
+.middle-container > .info a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+.middle-container .info a:hover{
+    font-style: italic;
+    color: chocolate;
+    text-decoration: underline;
+
+}
+.middle-container > .info h2{
+    margin-top: 20px;
+}
+.bottom-container {
+    background-color: cadetblue;
+    height: 100vh;
+}
+.bottom-container > .projects a{
+    text-decoration: none;
+    color: black;
+}
+.projects a:hover{
+    color: white;
+    font-size: larger;
+    text-decoration: underline;
+}
+.bottom-container h1{
+    display: block;
+    text-align: center;
+}
+.footer{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+}
